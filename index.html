@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amity University</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Phone css link -->
+  <link rel="stylesheet" media="screen and (max-width: 1300px)" href="css/phone.css" />
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-------------------- navbar -------------------->
+  <header>
+    <div id="logo">
+      <img src="/img/logo.png" alt="AMITY">
+    </div>
+    <div class="navigation">
+      <ul class="menu">
+        <div class="close-btn"></div>
+        <li class="menu-item"><a href="#home">Home</a></li>
+        <li class="menu-item">
+          <a class="sub-btn" href="#">Registration <i class="fas fa-angle-down"></i></a>
+          <ul class="sub-menu">
+            <li class="sub-item"><a href="#">Google Form</a></li>
+            <li class="sub-item"><a href="#">Payment</a></li>
+            <li class="sub-item"><a href="payment_fee.html">Registration Fee</a></li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a class="sub-btn" href="#">Call For Paper <i class="fas fa-angle-down"></i></a>
+          <ul class="sub-menu">
+            <li class="sub-item"><a href="call_for_paper.html">Call For Paper Theme</a></li>
+            <li class="sub-item"><a href="guidelines.html">Guidelines</a></li>
+            <li class="sub-item"><a href="#">Sub Item 03</a></li>
+            <li class="sub-item"><a href="#">Sub Item 04</a></li>
+            <li class="sub-item more">
+              <a class="more-btn" href="#">More Items <i class="fas fa-angle-right"></i></a>
+              <ul class="more-menu">
+                <li class="more-item"><a href="#">More Item 01</a></li>
+                <li class="more-item"><a href="#">More Item 02</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="important_dates.html">Important Dates</a></li>
+        <li class="menu-item">
+          <a class="sub-btn" href="#">Benefits <i class="fas fa-angle-down"></i></a>
+          <ul class="sub-menu">
+            <li class="sub-item"><a href="publication.html">Publication</a></li>
+            <li class="sub-item"><a href="best_paper_award.html">Best Paper Award</a></li>
+          </ul>
+        </li>
+        <li class="menu-item"><a href="#about-us">About</a></li>
+        <li class="menu-item"><a href="#contact-us">Contact</a></li>
+      </ul>
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div>
+    </div>
+    <div class="menu-btn"></div>
+  </header>
+
+
+
+  <!------------------ Home ----------------->
+  <div id="home" class="container">
+    <div class="background-head">
+      <!-- <h4>HURRY UP! DON'T WASTE TIME</h4> -->
+      <!-- <h1>BIGGEST</h1> -->
+      <h1>INTERNATIONAL</h1>
+      <h2>CONFERENCE</h2>
+      <h1>2022</h1>
+      <h4>Contemporary Issues in Business Management and Information Technology 2022 (CIBMIT 2022)</h4>
+      <h5>Special Theme : Resilience, Resurgence and Sustainability</h5>
+      <i class="fas fa-calendar-alt">
+        <h2>15th and 16th September 2022</h2>
+      </i>
+      <i class="fas fa-map-marker-alt">
+        <h2>Amity University, Patna, Bihar</h2>
+      </i>
+      <div class="scroll-down">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <a href="#date-and-time" style="text-decoration: none;"><span class="sd-text">Scroll down</span></a>
+      </div>
+    </div>
+  </div>
+  <!-- <section class="section-home">
+      <img src="logo.png" alt="Amity University">
+      <h2>International Webinar</h2>
+      <h3>on<br>Contemporary Issues in Business Management and Information Technology 2022 (CIBMIT 2022)</h3>
+      <h4>Special Theme : Resilience, Resurgence and Sustainability</h4>
+      <h3>15th and 16th September 2022</h3>
+      <h3>Organised by</h3>
+      <p>Amity Business School (ABS) & Amity College of Commerce and Finance (ACCF)</p>
+      <h3>Amity University, Patna, Bihar</h3>
+    </section> -->
+
+
+  <!-------------------- Date and Address Section ------------------->
+  <div id="date-and-time" class="date-address">
+    <div class="da-details">
+      <div>
+        <span><i class="fas fa-calendar-alt"></i></span>
+        <span>Date</span>
+        <span class="text">15th and 16th September 2022</span>
+      </div>
+      <div>
+        <span><i class="fas fa-map-marker-alt"></i></span>
+        <span>Address</span>
+        <span class="text">Amity University Patna, Bailey Road, Rupaspur, Patna - 801503, Bihar</span>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!---------------------- Blog Card ---------------------->
+    <section class="section-home">
+      <div class="news" id="latest">
+        <div class="blog-slider">
+          <div class="blog-slider__wrp swiper-wrapper">
+
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="/img/img2.jpg" alt="" />
+              </div>
+              <div class="blog-slider__content">
+                <div class="blog-slider__title">International Webinar</div>
+                <div class="blog-slider__text">
+                  <h3>on<br>Contemporary Issues in Business Management and Information Technology 2022 (CIBMIT 2022)
+                  </h3>
+                  <h3>Organised by</h3>
+                  <p>Amity Business School (ABS) & Amity College of Commerce and Finance (ACCF)</p>
+                  <h3>Amity University, Patna, Bihar</h3>
+                </div>
+              </div>
+            </div>
+    </section>
+
+
+    <!-------------------- Date and Address & website & Opening time Section ------------------->
+    <div class="contact-body">
+      <div class="contact-details">
+        <div>
+          <span><i class="fas fa-globe"></i></span>
+          <span>Official Website</span>
+          <span class="text">www.amity.edu.patna</span>
+        </div>
+        <div>
+          <span><i class="fas fa-envelope-open"></i></span>
+          <span>E-mail</span>
+          <span class="text">conference@ptn.amity.edu</span>
+        </div>
+        <div>
+          <span><i class="fas fa-map-marker-alt"></i></span>
+          <span>Address</span>
+          <span class="text">Amity University Patna, Bailey Road, Rupaspur, Patna - 801503, Bihar</span>
+        </div>
+        <div>
+          <span><i class="fas fa-clock"></i></span>
+          <span>Opening Hours</span>
+          <span class="text">Monday - Saturday<br>(9:00 AM to 6:00 PM)</span>
+        </div>
+      </div>
+
+
+      <!------------------------ Contact Us ------------------------->
+      <div id="contact-us" class="container-two">
+        <span class="big-circle"></span>
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Contact Info</h3>
+
+            <!-- 1st contact -->
+            <div class="info">
+              <div class="information">
+                <img src="img/man.png" class="icon" alt="" />
+                <p>DR. Kishore Bhattacharjee(Deputy Director, ARC & Associate Professor, ABS, AUP)</p>
+              </div>
+              <div class="information">
+                <img src="img/email.png" class="icon" alt="" />
+                <a href="mailto:kbhattacharjee@ptn.amity.edu">
+                  <p>kbhattacharjee@ptn.amity.edu</p>
+                </a>
+              </div>
+              <div class="information">
+                <img src="img/phone.png" class="icon" alt="" />
+                <a href="tel:+918102427626">
+                  <p>8102427626</p>
+                </a>
+              </div>
+            </div>
+
+            <!-- 2nd contact -->
+            <div class="straight-line"></div>
+            <div class="info">
+              <div class="information">
+                <img src="img/man.png" class="icon" alt="" />
+                <p>DR. Ajit Kumar (Deputy Director and Associate Professor, ACCF, AUP)</p>
+              </div>
+              <div class="information">
+                <img src="img/email.png" class="icon" alt="" />
+                <a href="mailto:akumar@ptn.amity.edu">
+                  <p>akumar@ptn.amity.edu</p>
+                </a>
+              </div>
+              <div class="information">
+                <img src="img/phone.png" class="icon" alt="" />
+                <a href="tel:+919031765303">
+                  <p>9031765303</p>
+                </a>
+              </div>
+            </div>
+
+            <!-- 3rd contact -->
+            <div class="straight-line"></div>
+            <div class="info">
+              <div class="information">
+                <img src="img/man.png" class="icon" alt="" />
+                <p>DR. Ritesh Ravi (Asst. Professor, ABS, AUP)</p>
+              </div>
+              <div class="information">
+                <img src="img/email.png" class="icon" alt="" />
+                <a href="mailto:rravi@ptn.amity.edu">
+                  <p>rravi@ptn.amity.edu</p>
+                </a>
+              </div>
+              <div class="information">
+                <img src="img/phone.png" class="icon" alt="" />
+                <a href="tel:+917903067011">
+                  <p>7903067011</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="social-media">
+              <p>Connect with us :</p>
+              <div class="social-icons">
+                <a href="mailto:conference@ptn.amity.edu">
+                  <i class="fas fa-envelope"></i>
+                  <h6>Email</h6>
+                </a>
+                <a href="https://amity.edu/Bihar/">
+                  <i class="fas fa-globe"></i>
+                  <h6>Visit</h6>
+                </a>
+                <!-- <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+            <div class="map-container">
+              <h3 class="title"><i class="fas fa-map-marker-alt"></i> Location</h3>
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57565.662326649835!2d85.0586663571257!3d25.609770778586338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed56457e773c5d%3A0x26f4637f762e3747!2sAmity%20University%2C%20Patna!5e0!3m2!1sen!2sin!4v1657369728442!5m2!1sen!2sin"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="information" style="color:white;">
+                <img src="img/map.png" class="icon" alt="" />
+                <p><b> Amity University Patna</b> <br>
+                  Bailey Road, Rupaspur, Patna - 801503, Bihar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="about-us" class="section-about">
+        <div class="about-container">
+          <img src="/img/img1.jpg" alt="" />
+
+          <div class="text-container">
+            <h1>ABOUT AMITY UNIVERSITY, PATNA</h1>
+            <p>About University, Patna belongs to a group of India's leading research and innovation driven University.
+              Amity Universtiy is ranked amongst the top 3% Unviersities globally by QS-2018 ranking. Amity University,
+              Patna is a part of 25 years old, leading education group of India, set up witha vision to contribute in
+              nation
+              builing through excellence in higher education. Amity University has more than 150,000 students, pursuing
+              300
+              programs across campuses in India and abroad. Amity University has facilitated more than 36,000 on -
+              campus
+              placements in the past years. Amity is research driven University with more than 6000 research
+              Publication,
+              more than 300 on-going research projects, 500 books in diverse area, 1001 patents, 1260 Management case
+              studies in areas of strategic Management, Marketing, Finance, HRM, and Economics etc. Amity University,
+              Patna
+              is yet another landmark University by Amity education group to revolutionize the Indian higher education
+              sector by providing globally benchmarked, research and employment-oriented education. The endeavor of
+              Amity
+              University, Patna is to provide every student the advantage of very strong placement cell and a large team
+              of
+              the Amity Corporate Resource Centre; which is involved in an intensive interaction with corporates and
+              facilate career planning for students. Strong global alumni base of Amity University translates intro a
+              tremendous advantage for the students in-terms of network building across the globe.</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="oc-heading">
+        <h1>ORGANISING COMMITTEE</h1>
+      </div>
+
+
+      <!-- Organising Committee -->
+      <div class="oc-container">
+
+        <!-- 1st card -->
+        <div class="oc-card">
+          <div class="oc-card-img">
+            <img src="img/sir1.jpg">
+          </div>
+          <div class="oc-card-text">
+            <h4>Chief Patron</h4>
+            <p>Dr. T.R. Venkatesh<br>(Vice-Chancellor, Amity University, Patna)</p>
+          </div>
+        </div>
+
+        <!-- 2nd card -->
+        <div class="oc-card">
+          <div class="oc-card-img">
+            <img src="img/sir2.jpg">
+          </div>
+          <div class="oc-card-text">
+            <h4>Patron</h4>
+            <p>Dr. Vivekanand Pandey<br>(Pro-Vice-Chancellor, Amity University, Patna)</p>
+          </div>
+        </div>
+
+        <!-- 3rd card -->
+        <div class="oc-card">
+          <div class="oc-card-img">
+            <img src="img/sir3.jpg">
+          </div>
+          <div class="oc-card-text">
+            <h4>Mentor</h4>
+            <p>Mr. Siddharth Shankar<br>(Deputy Registrar, Amity University, Patna)</p>
+          </div>
+        </div>
+
+        <!-- 4th card -->
+        <div class="oc-card">
+          <div class="oc-card-img">
+            <img src="img/sir1.jpg">
+          </div>
+          <div class="oc-card-text">
+            <h4>Mentor</h4>
+            <p>Dr. Sushil Kumar<br>(Deputy Examination controller, Amity University, Patna)</p>
+          </div>
+        </div>
+
+        <!-- 5th card -->
+        <div class="oc-card">
+          <div class="oc-card-img">
+            <img src="img/sir1.jpg">
+          </div>
+          <div class="oc-card-text">
+            <h4>Mentor</h4>
+            <p>Dr. Chetna Priti<br>(Asst. Director and Associate Professor, ABS, AUP)</p>
+          </div>
+        </div>
+
+        <!-- 6th card -->
+        <div class="oc-card">
+          <div class="oc-card-img">
+            <img src="img/sir1.jpg">
+          </div>
+          <div class="oc-card-text">
+            <h4>Mentor</h4>
+            <p>Dr. Rohit Kumar<br>(Program Leader, PHD Programme and Assistant Professor, ABS, AUP)</p>
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <!------------- footer ----------------->
+      <div class="footer">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://www.facebook.com/amityuni/" target="_blank" class="fab fa-facebook-f"></a>
+          <a href="https://twitter.com/amityuni?lang=en" target="_blank" class="fab fa-twitter"></a>
+          <a href="https://www.instagram.com/amityonline/?hl=en" target="_blank" class="fab fa-instagram"></a>
+          <a href="https://in.linkedin.com/school/amityonline/" target="_blank" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-youtube"></a>
+        </div>
+        <div class="copyright"> Copyright © 2022 All rights reserved
+        </div>
+      </div>
+
+      <!----------- scroll top button  ------------>
+      <a id="top"></a>
+      <!----------- End of scroll top button  ------------>
+
+
+
+
+      <!----------------------- navbar features -------------------->
+      <script type="text/javascript">
+        //jquery for toggle dropdown menus
+        $(document).ready(function () {
+          //toggle sub-menus
+          $(".sub-btn").click(function () {
+            $(this).next(".sub-menu").slideToggle();
+          });
+
+          //toggle more-menus
+          $(".more-btn").click(function () {
+            $(this).next(".more-menu").slideToggle();
+          });
+        });
+
+        //javascript for the responsive navigation menu
+        var menu = document.querySelector(".menu");
+        var menuBtn = document.querySelector(".menu-btn");
+        var closeBtn = document.querySelector(".close-btn");
+
+        menuBtn.addEventListener("click", () => {
+          menu.classList.add("active");
+        });
+
+        closeBtn.addEventListener("click", () => {
+          menu.classList.remove("active");
+        });
+
+        //javascript for the navigation bar effects on scroll
+        window.addEventListener("scroll", function () {
+          var header = document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0);
+        });
+      </script>
+
+
+      <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+          var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+          var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          var scrolled = (winScroll / height) * 100;
+          document.getElementById("myBar").style.width = scrolled + "%";
+        }
+      </script>
+
+      <script>
+        // --- scroll top btn ---
+
+        var btn = $('#top');
+
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+          } else {
+            btn.removeClass('show');
+          }
+        });
+
+        btn.on('click', function (e) {
+          e.preventDefault();
+          $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+      </script>
+
+
+
+
+      <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
